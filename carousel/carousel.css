@@ -1,0 +1,8 @@
+.carouselItems img{
+	width: 100%;
+	height: 400px !important;
+}
+.carousel-caption{
+	text-align: left;
+	bottom: 25%;
+}
