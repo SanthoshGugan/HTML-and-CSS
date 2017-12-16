@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>DropDown</title>
+
+	<!-- JQuery -->
+	<script src="../libs/jquery/jquery-3.2.1.js" type="text/javascript"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="../libs/bootstrap/bootstrap.css">
+	<script src="../libs/bootstrap/bootstrap.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="./dropdown.css">
+	<!-- carousel customization -->
+	<script src="./dropdown.js" type="text/javascript"></script>
+</head>
+<body>
+	<!-- Drop Downs on buttons -->
+	<div class="dropdown">
+	  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    Home
+	    <span class="caret"></span>
+	  </button>
+	  <ul class="dropdown-menu" aria-labelledby="dLabel">
+	 	<li>My Computer</li>
+	 	<li>Support</li>
+	 	<li>Policies</li>
+	  </ul>
+	</div>
+
+	<!-- Drop Downs on links -->
+	<div class="dropdown">
+	  <a id="dLabel1"  href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+	    Home
+	    <span class="caret"></span>
+	  </a>
+
+	  <ul class="dropdown-menu" aria-labelledby="dLabel1">
+	    <li>My Computer</li>
+	 	<li>Support</li>
+	 	<li>Policies</li>
+	  </ul>
+	</div>
+</body>
+</html>

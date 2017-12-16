@@ -1,0 +1,19 @@
+#dLabel1{
+	text-decoration: none;
+	color: black;
+}
+#dLabel1:hover{
+	text-decoration: none;
+}
+#dLabel1:active{
+	color: black;
+}
+
+.dropdown{
+	margin-bottom: 100px;
+}
+
+.dropdown-menu li:hover{
+	background-color: #f9f2f4;
+	font-weight: 600;
+}
