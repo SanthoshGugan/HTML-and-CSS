@@ -1,0 +1,92 @@
+.dh_header{
+	padding: 20px 50px;
+	.dh_logo{
+		img{
+		vertical-align: middle;			
+		color: inherit;
+		background-color: transparent;
+		}
+	}
+	.dh_navigation_links{ 
+		padding: 2% 0;
+		span{
+				margin-right: 20px;
+				a{
+					text-decoration: none;
+					color: #fff;
+					text-transform: uppercase;
+					transition: all 0.5s;
+					font-weight: 500;
+				}
+				a:hover{
+					text-decoration: none; 
+				}
+				i{
+					vertical-align: middle;
+					font-size: 2em;
+				}
+		}
+		span.dh_shopping_cart{
+			position: relative;
+			.badge{
+				position: absolute;
+				bottom: 10px;
+			    right: -12px;
+			    background-color: #ccc;
+			    color: #222;
+			    font-size: 10px;
+				}
+		}
+	}
+
+}
+
+.jumbotron{
+	margin-bottom: 0 !important;
+	.dh_jumbo_home{
+		min-height: 640px;
+		background-image: url("../assets/devonhanks/jumbotron.jpg");
+		background-color: rgba(100,100,100,0.3);
+		background-position: left;
+		margin-bottom: 0 !important;
+
+		.banner{
+			max-width: 650px;
+		    max-height: 200px;
+		    margin: auto;
+		    text-align: center;
+		    padding: 15% 0%;
+		    color: #fff;
+		    font-weight: 600;
+
+		    .side{
+		    	font-size: 1.5em;
+		    }
+
+		    .mainBanner{
+		    	font-weight: 700;
+		    	font-size: 4.5em;
+		    	text-transform: uppercase;
+		    }
+		}
+	}
+
+}
+
+.dh_intro{
+	background-color: #eae8e8;
+    text-align: center;
+    padding: 5% 0;
+
+    .dh_category{
+    	font-size: 2em;
+    	font-weight: 600;
+    }
+
+    .dh_intro_content{
+    	width: 75%;
+    	margin: auto;
+    	font-size: 1.75em;
+    	margin-top: 2.5%;
+    }
+}
